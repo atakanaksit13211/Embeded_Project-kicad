@@ -620,7 +620,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "valve_board",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -628,17 +628,26 @@
     "top_level_sheets": [
       {
         "filename": "Embeded_Project-kicad.kicad_sch",
-        "name": "Embeded_Project-kicad",
+        "name": "Sensor_Board (page 1)",
         "uuid": "e7299fe2-e9b0-4d85-8fe7-9e0667a9cf19"
+      },
+      {
+        "filename": "valve_board.kicad_sch",
+        "name": "Valve_Board",
+        "uuid": "29ecca34-bb7c-41e5-b235-d44a619396b8"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR3-4,U3-4,J1-3",
     "variants": []
   },
   "sheets": [
     [
       "e7299fe2-e9b0-4d85-8fe7-9e0667a9cf19",
-      "Embeded_Project-kicad"
+      "Sensor_Board (page 1)"
+    ],
+    [
+      "29ecca34-bb7c-41e5-b235-d44a619396b8",
+      "Valve_Board"
     ]
   ],
   "text_variables": {},
